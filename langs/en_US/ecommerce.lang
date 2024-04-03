@@ -129,8 +129,7 @@ ECommerceTimeoutDescription=Timeout to use when doing synchronization
 ECommerceClickUrlToTestUrl=Click here to test URL (an XML file must appear)
 ECommerceCategoriesProducts=Product categories
 ECommerceStockProduct=Warehouse for stock initialization
-ECommerceStockProductDescription=When previous option <strong>%s</strong> is set to <strong>eCommerce to Dolibarr</strong>, this is warehouse to use for stock change/init when a product is created/modified into Dolibarr by an eCommerce synchronization. Note that stock change on Dolibarr occurs during step of synchronization of products and not during synchronization of orders/bills.
-
+ECommerceStockProductDescription=When previous option Stock synchronisation direction is set to <strong>Dolibarr to eCommerce</strong>, this warehouse will be use as the reference for eCommerce products stock. <br>When previous option Stock synchronisation direction is set to <strong>eCommerce to Dolibarr</strong>, this is warehouse to use for stock change/init when a product is created/modified into Dolibarr by an eCommerce synchronization. <br>Note that stock change on Dolibarr occurs during step of synchronization of products and not during synchronization of orders/bills.
 ECommerceErrorGetSocieteToUpdate=Error failed to retrieving companies list. Please retry.
 ECommerceErrorGetProduitsToUpdate=Error failed while retrieving products list. Please retry.
 ECommerceErrorGetCategoryToUpdate=Error failed while retrieving categories list. Please retry.
